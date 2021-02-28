@@ -1,0 +1,87 @@
+body{
+    background: linear-gradient(to left, aqua, rgb(29, 138, 138))
+}
+
+.container{
+    background-color:white;
+    width:420px;
+    height:250px;
+    border-radius:10px;
+    margin-top:150px;
+    margin-left:450px;
+}
+
+h2{
+    font-size:30px;
+    font-family:monospace;
+    margin-top:20px;
+    margin-left:20px;
+}
+.input{
+    width:300px;
+    height:35px;
+    outline:none;
+    margin-left:20px;
+    font-size:18px;
+    font-weight:none;
+}
+
+.plus{
+    width:45px;
+    height:40px;
+    background-color:rgb(116, 169, 248);
+    cursor:pointer;
+    border:1px solid transparent;
+    outline:none;
+    border-radius:5px;
+    font-size:25px;
+    color:white;
+    font-weight:none;
+}
+.calcul{
+    margin-top:80px;
+    font-size:20px;
+    font-family:monospace;
+    margin-left:10px;
+}
+
+.calcul, .clear{
+    display:inline-block;
+}
+.clear{
+    margin-left:320px;
+    width:100px;
+    height:35px;
+    font-size:20px;
+    font-weight:none;
+    background-color:rgb(116, 169, 248);
+    border:1px solid transparent;
+    color:white;
+    border-radius:5px;
+    outline:none;
+    cursor:pointer;
+}
+.clear:hover{
+    cursor:not-allowed;
+}
+.clear2:hover{
+    cursor:pointer;
+}
+
+.place{
+    font-size:18px;
+    color:black;
+    font-family:monospace;
+    margin-left:20px;
+    margin-top:10px;
+    cursor:pointer;
+   /* text-decoration:underline;  */
+}
+.text{
+    text-decoration:underline;
+}
+.text2{
+    text-decoration:line-through;
+}
+
+
